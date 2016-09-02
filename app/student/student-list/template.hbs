@@ -1,1 +1,8 @@
-{{outlet}}
+
+<h2>Student List</h2>
+{{log 'model' model}}
+{{#each model as | student index |}}
+  <ul>
+    <li>{{student.first_name}} {{student.middle_name}} {{student.last_name}} {{student.address}} {{student.email}} {{student.contact_num}}</li>
+  </ul>
+{{/each}}
