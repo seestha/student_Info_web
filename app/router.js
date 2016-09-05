@@ -8,7 +8,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('student', function() {
-    this.route('create_new');
+    this.route('create-new');
     this.route('edit-student');
     this.route('student-list');
   });

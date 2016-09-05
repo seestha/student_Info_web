@@ -1,1 +1,0 @@
-/home/saru/fusemachines/student_Info_web/app/student/student-list/controller.js

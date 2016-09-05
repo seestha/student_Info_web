@@ -1,2 +1,16 @@
-{{outlet}}
-<h2>Welcome to list page</h2>
+<h2>Create New page</h2>
+<form>
+  First name:<br>
+  {{input type="text" name="first_name" value=first_name}}<br>
+  Middle name:<br>
+  {{input type="text" name="middle_name" value=middle_name}}<br>
+  Last name:<br>
+  {{input type="text" name="last_name" value=last_name}}<br>
+  Address:<br>
+  {{input type="text" name="address" value=address}}<br>
+  Email:<br>
+  {{input type="email" name="email" value=email}}<br>
+  Contact Number:<br>
+  {{input type="number" name="contact_num" value=contact_num}}<br>
+  <button {{action "newstudent"}}>Submit</button>
+</form>

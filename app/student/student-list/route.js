@@ -10,5 +10,10 @@ export default Ember.Route.extend({
   // console.log('mofff',model.student);
 
 
+},
+actions:{
+  createNew : function(){
+    this.transitionTo('student.create-new');
   }
+}
 });
